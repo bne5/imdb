@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IMDb</title>
+    <link rel="stylesheet" href="IMDb%20mokup.css">
+    <style>
+        #home {
+            height: 75px;
+            width: 90px;
+            padding: 1px 5px 0px;
+            margin: 0px;
+            border: 0px;
+            hover
+        }
+        #srchbr{
+            height: 30px;
+            width: 450px;
+            font-size: 15px;
+        }
+        #drp {
+            height: 30px;
+            width: 75px;
+        }
+        #btn {
+            height: 200px;
+            width: 30px;
+        }
+        .button {
+            font-size: 25px;
+            color: black;
+            border-radius: 4px;
+            background: linear-gradient(lightgoldenrodyellow,gold);
+        }
+        .button:hover {
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+<header style="background: #2e2e2e">
+    <hr>
+    <a href="http://www.imdb.com/?ref_=nv_home">
+        <img title="Home" id="home" src="IMDB_Logo_2016.svg" alt="Home">
+    </a>
+    <span>
+        <input id="srchbr" type="text" placeholder="Find Movies, TV Shows, Celebrities and More...">
+        <select id="drp">
+            <option value="all">
+                All
+            </option>
+            <option value="titles">
+                Titles
+            </option>
+            <option value="tv episodes">
+                TV Episodes
+            </option>
+            <option value="name">
+                Name
+            </option>
+            <option value="companies">
+                Companies
+            </option>
+            <option value="keywords">
+                Keywords
+            </option>
+            <option value="advanced search">
+                <a src="http://www.imdb.com/search/" alt="advanced search">
+                    Advanced Search
+                </a>
+            </option>
+        </select>
+        <input class="button" type="submit" value="Q">
+    </span>
+    <ul>
+        <li class="dropdown">
+            <ul>
+                <a href="http://www.imdb.com/movies-in-theaters/?ref_=nv_tp_inth_1" class="dropbtn">Movies</a>
+                <a href="http://www.imdb.com/chart/toptv/?ref_=nv_tp_tv250_2" class="dropbtn">TV</a>
+                &amp;
+                <a href="http://www.imdb.com/showtimes/?ref_=nv_tp_sh_3" class="dropbtn">Showtimes</a>
+            </ul>
+            <div class="dropdown-content" style="color:darkgoldenrod">
+                Movies
+                    <a href="http://www.imdb.com/movies-in-theaters/?ref_=nv_mv_inth_1">
+                        In Theaters
+                    </a>
+                    <a href="http://www.imdb.com/showtimes/?ref_=nv_mv_sh_2">
+                        Showtimes &amp; Tickets
+                    </a>
+                    <a href="">Link 3</a>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+            </div>
+        </li>
+    </ul>
+    <hr>
+</header>
+<aside>
+    <video src="http://www.imdb.com/list/ls025849840/videoplayer/vi1714534425?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=034812a5-0ec7-4b8c-ae8b-2451ad303ed9&pf_rd_r=0E9XBTTBPFT3S55AJY9C&pf_rd_s=right-3&pf_rd_t=15021&pf_rd_i=tt0091042&ref_=tt_ecw_115_vod3_rhs_i_1" type="video">
+        <img src="goldengirls.jpg">
+    </video>
+</aside>
+
+</body>
+</html>
